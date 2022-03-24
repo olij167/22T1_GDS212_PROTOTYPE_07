@@ -322,17 +322,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 579dafd7514a9c2479533ef509c482ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  word: 
+  word: {fileID: 0}
   lipsImage: {fileID: 955200903}
   spriteDisplayTimer: 0
-  lettersInWordList:
-  - {fileID: 11400000, guid: 2a3f0e4363f4f9640952ea2c2413ad51, type: 2}
-  - {fileID: 11400000, guid: d16c03945d8bf6b47a6d8348f4d93db7, type: 2}
-  - {fileID: 11400000, guid: 8811e37326648734fbddaa4672ac0343, type: 2}
-  letterDisplayTime:
-  - 1
-  - 2
-  - 0.5
+  wordsList:
+  - {fileID: 11400000, guid: 7b369c9526f9cd245881ed78fb81669a, type: 2}
+  - {fileID: 11400000, guid: cf238e1f198ceff41824b735bf4d8750, type: 2}
   count: 0
 --- !u!114 &955200903
 MonoBehaviour:

@@ -6,21 +6,22 @@ using UnityEngine.UI;
 //Script written by Oli for Prototype 7
 public class LipSyncController : MonoBehaviour
 {
-    public string word; // << will be used to check the answer
+    public LipSyncWord word;
     
     public Image lipsImage;
 
     public float spriteDisplayTimer;
 
-    public List<LipSyncLetter> lettersInWordList; // << fill in inspector with each letter of the word in order
-    public List<float> letterDisplayTime; // << fill in inspector with how long each letter should be displayed before showing the next sprite
-                                          // must be the same element number as the letter
+    public List<LipSyncWord> wordsList;
 
     public int count;
     void Start()
     {
-        lipsImage.sprite = lettersInWordList[0].mouthSprite;
-        spriteDisplayTimer = letterDisplayTime[0];
+        word = wordsList[Random.Range(0, wordsList.Count)];
+        lipsImage.sprite = word.lettersInWordList[0].mouthSprite;
+        spriteDisplayTimer = word.letterDisplayTimeList[0];
+
+        
     }
 
     // Update is called once per frame
@@ -32,14 +33,14 @@ public class LipSyncController : MonoBehaviour
         {
             count++;
 
-            if (count >= lettersInWordList.Count)
+            if (count >= word.lettersInWordList.Count)
             {
                 count = 0;
             }
 
 
-            lipsImage.sprite = lettersInWordList[count].mouthSprite;
-            spriteDisplayTimer = letterDisplayTime[count];
+            lipsImage.sprite = word.lettersInWordList[count].mouthSprite;
+            spriteDisplayTimer = word.letterDisplayTimeList[count];
 
         }
     }
