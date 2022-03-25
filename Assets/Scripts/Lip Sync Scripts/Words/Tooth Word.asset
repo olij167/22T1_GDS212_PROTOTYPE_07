@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1f97b3e193638804286922ad5672c369, type: 3}
-  m_Name: Dog Word
+  m_Name: Tooth Word
   m_EditorClassIdentifier: 
-  word: dog
+  word: 
   lettersInWordList:
-  - {fileID: 11400000, guid: 0fd0ef51f4f38834fb889f66e3549252, type: 2}
+  - {fileID: 11400000, guid: aac11b920650e6540b62be8504f70311, type: 2}
   - {fileID: 11400000, guid: e28f4a99d674ace4b8f85f8cf0974726, type: 2}
-  - {fileID: 11400000, guid: cd8bb4eea2cd3ba4abe8f9b7b034ddca, type: 2}
+  - {fileID: 11400000, guid: 55e812312ef5665479a68c300bc5fbb9, type: 2}
   letterDisplayTimeList:
-  - 0.5
-  - 0.5
+  - 0.25
+  - 0.6
   - 0.5
