@@ -10,23 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1f97b3e193638804286922ad5672c369, type: 3}
-  m_Name: Antelope
+  m_Name: World
   m_EditorClassIdentifier: 
-  word: antelope
+  word: world
   lettersInWordList:
-  - {fileID: 11400000, guid: 2a3f0e4363f4f9640952ea2c2413ad51, type: 2}
-  - {fileID: 11400000, guid: 8d4c359165f854e4abe7a31a77f2c683, type: 2}
-  - {fileID: 11400000, guid: aac11b920650e6540b62be8504f70311, type: 2}
-  - {fileID: 11400000, guid: 25dbe55ba29123a41a3a061e2607a37e, type: 2}
-  - {fileID: 11400000, guid: 16fa53815ceeaf24e933ae8c8b4afa31, type: 2}
+  - {fileID: 11400000, guid: 6095c0250f0fa5c4684cdab7d8cbf51c, type: 2}
   - {fileID: 11400000, guid: e28f4a99d674ace4b8f85f8cf0974726, type: 2}
-  - {fileID: 11400000, guid: aa15e6fbd0dfc144a8b2c2c4e02c7c20, type: 2}
+  - {fileID: 11400000, guid: ee53038bda6e3ba4c94b0a99e85274fc, type: 2}
+  - {fileID: 11400000, guid: 16fa53815ceeaf24e933ae8c8b4afa31, type: 2}
+  - {fileID: 11400000, guid: 0fd0ef51f4f38834fb889f66e3549252, type: 2}
   letterDisplayTimeList:
   - 0.3
   - 0.3
   - 0.3
   - 0.3
   - 0.3
-  - 0.3
-  - 0.3
-  dontMakeHiddenWord: 0
+  dontMakeHiddenWord: 1

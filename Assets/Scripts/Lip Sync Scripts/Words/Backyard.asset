@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f97b3e193638804286922ad5672c369, type: 3}
   m_Name: Backyard
   m_EditorClassIdentifier: 
-  word: 
+  word: backyard
   lettersInWordList:
   - {fileID: 11400000, guid: d16c03945d8bf6b47a6d8348f4d93db7, type: 2}
   - {fileID: 11400000, guid: 2a3f0e4363f4f9640952ea2c2413ad51, type: 2}
@@ -29,3 +29,4 @@ MonoBehaviour:
   - 0.2
   - 0.2
   - 0.2
+  dontMakeHiddenWord: 0

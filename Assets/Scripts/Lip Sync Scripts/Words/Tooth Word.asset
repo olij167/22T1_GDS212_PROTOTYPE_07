@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f97b3e193638804286922ad5672c369, type: 3}
   m_Name: Tooth Word
   m_EditorClassIdentifier: 
-  word: 
+  word: tooth
   lettersInWordList:
   - {fileID: 11400000, guid: aac11b920650e6540b62be8504f70311, type: 2}
   - {fileID: 11400000, guid: e28f4a99d674ace4b8f85f8cf0974726, type: 2}
