@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: D
   m_EditorClassIdentifier: 
   letter: 68
-  mouthSprite: {fileID: 0}
+  mouthSprite: {fileID: 3153873361288126893, guid: d7d6ac0cca270b045924f780c9f457a8, type: 3}
