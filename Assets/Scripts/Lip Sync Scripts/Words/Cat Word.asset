@@ -18,6 +18,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 2a3f0e4363f4f9640952ea2c2413ad51, type: 2}
   - {fileID: 11400000, guid: aac11b920650e6540b62be8504f70311, type: 2}
   letterDisplayTimeList:
-  - 1
-  - 1
-  - 1
+  - 0.25
+  - 0.25
+  - 0.25

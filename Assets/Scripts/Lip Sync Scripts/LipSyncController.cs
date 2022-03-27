@@ -7,24 +7,29 @@ using UnityEngine.UI;
 public class LipSyncController : MonoBehaviour
 {
     public LipSyncWord word;
+
+    public LipSyncSentence sentence;
     
     public Image lipsImage;
 
     public float spriteDisplayTimer;
 
-    public List<LipSyncWord> wordsList;
+    //public List<LipSyncWord> wordsList;
+    public List<LipSyncSentence> sentenceList;
 
     public int count;
     void Start()
     {
-        word = wordsList[Random.Range(0, wordsList.Count)];
-        lipsImage.sprite = word.lettersInWordList[0].mouthSprite;
-        spriteDisplayTimer = word.letterDisplayTimeList[0];
-
         
+
+
+        //word = wordsList[Random.Range(0, wordsList.Count)];
+        //lipsImage.sprite = word.lettersInWordList[0].mouthSprite;
+        //spriteDisplayTimer = word.letterDisplayTimeList[0];
+
+
     }
 
-    // Update is called once per frame
     void Update()
     {
         spriteDisplayTimer -= Time.deltaTime;
@@ -44,4 +49,16 @@ public class LipSyncController : MonoBehaviour
 
         }
     }
+
+    public void SetNewSentence()
+    {
+        sentence = sentenceList[Random.Range(0, sentenceList.Count)];
+        sentence.ChooseHiddenWord();
+
+        word = sentence.hiddenWord;
+
+        lipsImage.sprite = word.lettersInWordList[0].mouthSprite;
+        spriteDisplayTimer = word.letterDisplayTimeList[0];
+    }
+
 }
