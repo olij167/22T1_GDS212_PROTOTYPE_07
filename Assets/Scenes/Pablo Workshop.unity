@@ -632,6 +632,30 @@ PrefabInstance:
       propertyPath: options.Array.data[3]
       value: 
       objectReference: {fileID: 356073608}
+    - target: {fileID: 8521643377129432225, guid: ab9b063be9626c842bcabedc56e3ab65, type: 3}
+      propertyPath: QnA.Array.data[0].Question
+      value: I like to eat ____
+      objectReference: {fileID: 0}
+    - target: {fileID: 8521643377129432225, guid: ab9b063be9626c842bcabedc56e3ab65, type: 3}
+      propertyPath: QnA.Array.data[0].CorrectAnswers
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8521643377129432225, guid: ab9b063be9626c842bcabedc56e3ab65, type: 3}
+      propertyPath: QnA.Array.data[0].Answers.Array.data[0]
+      value: wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 8521643377129432225, guid: ab9b063be9626c842bcabedc56e3ab65, type: 3}
+      propertyPath: QnA.Array.data[0].Answers.Array.data[1]
+      value: car
+      objectReference: {fileID: 0}
+    - target: {fileID: 8521643377129432225, guid: ab9b063be9626c842bcabedc56e3ab65, type: 3}
+      propertyPath: QnA.Array.data[0].Answers.Array.data[2]
+      value: apples
+      objectReference: {fileID: 0}
+    - target: {fileID: 8521643377129432225, guid: ab9b063be9626c842bcabedc56e3ab65, type: 3}
+      propertyPath: QnA.Array.data[0].Answers.Array.data[3]
+      value: Margarette
+      objectReference: {fileID: 0}
     - target: {fileID: 8521643377129432230, guid: ab9b063be9626c842bcabedc56e3ab65, type: 3}
       propertyPath: m_Name
       value: QuizManager
