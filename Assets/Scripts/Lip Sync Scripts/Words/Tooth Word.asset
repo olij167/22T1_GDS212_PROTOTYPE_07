@@ -17,7 +17,5 @@ MonoBehaviour:
   - {fileID: 11400000, guid: aac11b920650e6540b62be8504f70311, type: 2}
   - {fileID: 11400000, guid: e28f4a99d674ace4b8f85f8cf0974726, type: 2}
   - {fileID: 11400000, guid: 55e812312ef5665479a68c300bc5fbb9, type: 2}
-  letterDisplayTimeList:
-  - 0.25
-  - 0.6
-  - 0.5
+  letterDisplayTime: 0.15
+  dontMakeHiddenWord: 0

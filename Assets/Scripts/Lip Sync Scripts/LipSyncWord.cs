@@ -11,7 +11,7 @@ public class LipSyncWord : ScriptableObject
     public string word;
     public List<LipSyncLetter> lettersInWordList; // << fill in inspector with each letter of the word in order
 
-    public List<float> letterDisplayTimeList; // << fill in inspector with how long each letter should be displayed before showing the next sprite
+    public float letterDisplayTime; // << fill in inspector with how long each letter should be displayed before showing the next sprite
                                               // must be the same element number as the corresponding letter
 
     public bool dontMakeHiddenWord;

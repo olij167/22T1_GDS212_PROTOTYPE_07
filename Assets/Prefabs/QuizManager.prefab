@@ -53,11 +53,11 @@ MonoBehaviour:
     CorrectAnswers: 1
   - Question: How are you
     Answers:
-    - 'Fine '
     - Coconut
     - Pears
+    - 'Fine '
     - Sun
-    CorrectAnswers: 1
+    CorrectAnswers: 2
   options:
   - {fileID: 0}
   - {fileID: 0}
