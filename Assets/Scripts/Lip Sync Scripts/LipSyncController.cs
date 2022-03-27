@@ -17,6 +17,7 @@ public class LipSyncController : MonoBehaviour
     //public List<LipSyncWord> wordsList;
     public List<LipSyncSentence> sentenceList;
 
+
     public int count;
     void Start()
     {
@@ -45,7 +46,7 @@ public class LipSyncController : MonoBehaviour
 
 
             lipsImage.sprite = word.lettersInWordList[count].mouthSprite;
-            spriteDisplayTimer = word.letterDisplayTimeList[count];
+            spriteDisplayTimer = word.letterDisplayTime;
 
         }
     }
@@ -58,7 +59,7 @@ public class LipSyncController : MonoBehaviour
         word = sentence.hiddenWord;
 
         lipsImage.sprite = word.lettersInWordList[0].mouthSprite;
-        spriteDisplayTimer = word.letterDisplayTimeList[0];
+        spriteDisplayTimer = word.letterDisplayTime;
     }
 
 }
