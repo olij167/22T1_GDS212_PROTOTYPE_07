@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f97b3e193638804286922ad5672c369, type: 3}
+  m_Name: like
+  m_EditorClassIdentifier: 
+  word: like
+  lettersInWordList:
+  - {fileID: 11400000, guid: ef032348c789af44a9fdf6e3b1008381, type: 2}
+  - {fileID: 11400000, guid: 16fa53815ceeaf24e933ae8c8b4afa31, type: 2}
+  - {fileID: 11400000, guid: 09500929fcc3a1144a251c0947889125, type: 2}
+  - {fileID: 11400000, guid: 676037984f7b54f4abe828e97c970dba, type: 2}
+  letterDisplayTime: 0.15
+  dontMakeHiddenWord: 1

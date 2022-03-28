@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ee90ed5b2c22374ea08cb87101e5ccf, type: 3}
+  m_Name: sentence 5
+  m_EditorClassIdentifier: 
+  sentence: "keep a lookout, I\u2019m making the delivery  "
+  wordsInSentence:
+  - {fileID: 11400000, guid: 117c4f658e497e5458f0f5e45cf552f7, type: 2}
+  - {fileID: 11400000, guid: 28f2dd5ee31c6044489e43b2fe0424ad, type: 2}
+  - {fileID: 11400000, guid: abf068b8eae12114f8e30f0af88540b5, type: 2}
+  - {fileID: 11400000, guid: 3aa27550f8a688347a68ccd38f74e314, type: 2}
+  - {fileID: 11400000, guid: 9af8eded3f6c774498bc38a3aff6999e, type: 2}
+  - {fileID: 11400000, guid: 53ade1eee483e0f41aab17d3349d91f3, type: 2}
+  - {fileID: 11400000, guid: 5fb9e505efa457f409271f44bb3bf832, type: 2}
+  hiddenWord: {fileID: 0}
+  hiddenWordNumInList: 0

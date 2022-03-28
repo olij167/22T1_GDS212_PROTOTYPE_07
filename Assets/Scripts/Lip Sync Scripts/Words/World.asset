@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   word: world
   lettersInWordList:
+  - {fileID: 11400000, guid: ef032348c789af44a9fdf6e3b1008381, type: 2}
   - {fileID: 11400000, guid: 6095c0250f0fa5c4684cdab7d8cbf51c, type: 2}
   - {fileID: 11400000, guid: e28f4a99d674ace4b8f85f8cf0974726, type: 2}
   - {fileID: 11400000, guid: ee53038bda6e3ba4c94b0a99e85274fc, type: 2}

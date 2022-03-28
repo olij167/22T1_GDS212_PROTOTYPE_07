@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   word: cat
   lettersInWordList:
+  - {fileID: 11400000, guid: ef032348c789af44a9fdf6e3b1008381, type: 2}
   - {fileID: 11400000, guid: 8811e37326648734fbddaa4672ac0343, type: 2}
   - {fileID: 11400000, guid: 2a3f0e4363f4f9640952ea2c2413ad51, type: 2}
   - {fileID: 11400000, guid: aac11b920650e6540b62be8504f70311, type: 2}
