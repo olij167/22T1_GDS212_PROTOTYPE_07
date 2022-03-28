@@ -10,14 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1f97b3e193638804286922ad5672c369, type: 3}
-  m_Name: Hello
+  m_Name: The
   m_EditorClassIdentifier: 
-  word: hello
+  word: the
   lettersInWordList:
   - {fileID: 11400000, guid: ef032348c789af44a9fdf6e3b1008381, type: 2}
-  - {fileID: 11400000, guid: c1c22b7fd67defb4e90904a79eac1d05, type: 2}
+  - {fileID: 11400000, guid: 55e812312ef5665479a68c300bc5fbb9, type: 2}
   - {fileID: 11400000, guid: 25dbe55ba29123a41a3a061e2607a37e, type: 2}
-  - {fileID: 11400000, guid: 16fa53815ceeaf24e933ae8c8b4afa31, type: 2}
-  - {fileID: 11400000, guid: e28f4a99d674ace4b8f85f8cf0974726, type: 2}
-  letterDisplayTime: 0.15
+  letterDisplayTime: 0
   dontMakeHiddenWord: 0
