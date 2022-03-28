@@ -56,13 +56,13 @@ public class QuizManagerAdaption : MonoBehaviour
     public void correct()
     {
         score += 1;
-        lipSyncController.sentenceList.RemoveAt(currentQuestion);
+        lipSyncController.sentenceList.Remove(lipSyncController.sentence);
         generateQuestion();
     }
 
     public void wrong()
     {
-        lipSyncController.sentenceList.RemoveAt(currentQuestion);
+        lipSyncController.sentenceList.Remove(lipSyncController.sentence);
         generateQuestion();
     }
 
@@ -72,7 +72,7 @@ public class QuizManagerAdaption : MonoBehaviour
 
         options[randButtonIndex].GetComponent<AnswerAdaption>().isCorrect = true;
 
-        options[randButtonIndex].transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = lipSyncController.sentence.hiddenWord.word;
+        options[randButtonIndex].transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = lipSyncController.word.word;
 
         
         foreach (GameObject button in options)

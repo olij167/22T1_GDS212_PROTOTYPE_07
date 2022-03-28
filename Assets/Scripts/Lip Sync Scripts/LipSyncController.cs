@@ -10,18 +10,20 @@ public class LipSyncController : MonoBehaviour
 
     public LipSyncSentence sentence;
     
-    Image lipsImage;
+    public Image lipsImage;
 
     public float spriteDisplayTimer;
 
     //public List<LipSyncWord> wordsList;
     public List<LipSyncSentence> sentenceList;
+    public List<LipSyncWord> potentialAnswersList;
 
 
-    public int count;
+    public int count, hiddenWordIndex;
     void Start()
     {
         lipsImage = GetComponent<Image>();
+        potentialAnswersList = new List<LipSyncWord>();
 
 
         //word = wordsList[Random.Range(0, wordsList.Count)];
@@ -54,12 +56,50 @@ public class LipSyncController : MonoBehaviour
     public void SetNewSentence()
     {
         sentence = sentenceList[Random.Range(0, sentenceList.Count)];
-        sentence.ChooseHiddenWord();
 
-        word = sentence.hiddenWord;
+        ChooseHiddenWord();
+
+        //word = sentence.hiddenWord;
 
         lipsImage.sprite = word.lettersInWordList[0].mouthSprite;
         spriteDisplayTimer = word.letterDisplayTime;
+    }
+
+    public void ChooseHiddenWord()
+    {
+        //QnA.Answers = wordsInSentence
+
+        //foreach (LipSyncWord word in sentence.wordsInSentence)
+        //{
+        //    if (word.dontMakeHiddenWord)
+        //    {
+        //        sentence.wordsInSentence.Remove(word);
+        //    }
+        //}
+
+
+        potentialAnswersList.Clear();
+
+       // potentialAnswersList.AddRange(sentence.wordsInSentence);
+
+        foreach (LipSyncWord answer in sentence.wordsInSentence)
+        {
+            if (!answer.dontMakeHiddenWord)
+            {
+                potentialAnswersList.Add(answer);
+            }
+        }
+
+        hiddenWordIndex = Random.Range(0, potentialAnswersList.Count);
+
+        //if (sentence.wordsInSentence[hiddenWordIndex].dontMakeHiddenWord)
+        //{
+        //    hiddenWordIndex = Random.Range(0, potentialAnswersList.Count);
+        //}
+
+
+        word = potentialAnswersList[hiddenWordIndex];
+        
     }
 
 }

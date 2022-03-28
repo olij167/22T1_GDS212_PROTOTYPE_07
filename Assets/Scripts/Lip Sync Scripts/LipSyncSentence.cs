@@ -16,16 +16,5 @@ public class LipSyncSentence : ScriptableObject
 
     //public QnAAdaption QnA;
 
-    public void ChooseHiddenWord()
-    {
-        //QnA.Answers = wordsInSentence
-
-        hiddenWordNumInList = Random.Range(0, wordsInSentence.Count);
-
-        if (wordsInSentence[hiddenWordNumInList].dontMakeHiddenWord)
-        {
-            hiddenWordNumInList = Random.Range(0, wordsInSentence.Count);
-        }
-        else hiddenWord = wordsInSentence[hiddenWordNumInList];
-    }
+    
 }

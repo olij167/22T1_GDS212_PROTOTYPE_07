@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ee90ed5b2c22374ea08cb87101e5ccf, type: 3}
   m_Name: sentence 15
   m_EditorClassIdentifier: 
-  sentence: Where will we go for our next mission
+  sentence: where will we go for our next mission ?
   wordsInSentence:
   - {fileID: 11400000, guid: 27f1f8cfcd65a9d4aae82d12a7031064, type: 2}
   - {fileID: 11400000, guid: d2900a6578397da4288b0374762e63dc, type: 2}
