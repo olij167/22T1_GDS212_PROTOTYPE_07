@@ -439,6 +439,18 @@ PrefabInstance:
       propertyPath: quizManager
       value: 
       objectReference: {fileID: 1149659948}
+    - target: {fileID: 6606810733531364348, guid: 05b98d07241f8e248a623a826a4bad34, type: 3}
+      propertyPath: startColor.b
+      value: 0.2627451
+      objectReference: {fileID: 0}
+    - target: {fileID: 6606810733531364348, guid: 05b98d07241f8e248a623a826a4bad34, type: 3}
+      propertyPath: startColor.g
+      value: 0.2627451
+      objectReference: {fileID: 0}
+    - target: {fileID: 6606810733531364348, guid: 05b98d07241f8e248a623a826a4bad34, type: 3}
+      propertyPath: startColor.r
+      value: 0.5764706
+      objectReference: {fileID: 0}
     - target: {fileID: 6606810733937933718, guid: 05b98d07241f8e248a623a826a4bad34, type: 3}
       propertyPath: m_Name
       value: Quiz Canvas
@@ -531,14 +543,50 @@ PrefabInstance:
       propertyPath: quizManager
       value: 
       objectReference: {fileID: 1149659948}
+    - target: {fileID: 6606810734170114403, guid: 05b98d07241f8e248a623a826a4bad34, type: 3}
+      propertyPath: startColor.b
+      value: 0.2627451
+      objectReference: {fileID: 0}
+    - target: {fileID: 6606810734170114403, guid: 05b98d07241f8e248a623a826a4bad34, type: 3}
+      propertyPath: startColor.g
+      value: 0.2627451
+      objectReference: {fileID: 0}
+    - target: {fileID: 6606810734170114403, guid: 05b98d07241f8e248a623a826a4bad34, type: 3}
+      propertyPath: startColor.r
+      value: 0.5764706
+      objectReference: {fileID: 0}
     - target: {fileID: 6606810734418329788, guid: 05b98d07241f8e248a623a826a4bad34, type: 3}
       propertyPath: quizManager
       value: 
       objectReference: {fileID: 1149659948}
+    - target: {fileID: 6606810734418329788, guid: 05b98d07241f8e248a623a826a4bad34, type: 3}
+      propertyPath: startColor.b
+      value: 0.2627451
+      objectReference: {fileID: 0}
+    - target: {fileID: 6606810734418329788, guid: 05b98d07241f8e248a623a826a4bad34, type: 3}
+      propertyPath: startColor.g
+      value: 0.2627451
+      objectReference: {fileID: 0}
+    - target: {fileID: 6606810734418329788, guid: 05b98d07241f8e248a623a826a4bad34, type: 3}
+      propertyPath: startColor.r
+      value: 0.5764706
+      objectReference: {fileID: 0}
     - target: {fileID: 6606810735155264316, guid: 05b98d07241f8e248a623a826a4bad34, type: 3}
       propertyPath: quizManager
       value: 
       objectReference: {fileID: 1149659948}
+    - target: {fileID: 6606810735155264316, guid: 05b98d07241f8e248a623a826a4bad34, type: 3}
+      propertyPath: startColor.b
+      value: 0.2627451
+      objectReference: {fileID: 0}
+    - target: {fileID: 6606810735155264316, guid: 05b98d07241f8e248a623a826a4bad34, type: 3}
+      propertyPath: startColor.g
+      value: 0.2627451
+      objectReference: {fileID: 0}
+    - target: {fileID: 6606810735155264316, guid: 05b98d07241f8e248a623a826a4bad34, type: 3}
+      propertyPath: startColor.r
+      value: 0.5764706
+      objectReference: {fileID: 0}
     - target: {fileID: 6606810735167708561, guid: 05b98d07241f8e248a623a826a4bad34, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
