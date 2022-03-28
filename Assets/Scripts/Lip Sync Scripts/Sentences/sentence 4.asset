@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ee90ed5b2c22374ea08cb87101e5ccf, type: 3}
   m_Name: sentence 4
   m_EditorClassIdentifier: 
-  sentence: "we need to move at six o\u2019clock  "
+  sentence: 'we need to move at six o clock  '
   wordsInSentence:
   - {fileID: 11400000, guid: e87ed575ce3ccf84ea1f61b0e615ab86, type: 2}
   - {fileID: 11400000, guid: fcb52c490374eb44284291d7da03897a, type: 2}

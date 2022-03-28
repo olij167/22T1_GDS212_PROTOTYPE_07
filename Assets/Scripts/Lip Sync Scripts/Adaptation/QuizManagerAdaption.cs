@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
 using UnityEngine.SceneManagement;
 
@@ -129,6 +130,11 @@ public class QuizManagerAdaption : MonoBehaviour
         if(lipSyncController.sentenceList.Count > 0)
         {
             lipSyncController.SetNewSentence();
+
+            foreach (GameObject answer in options)
+            {
+                answer.GetComponent<AnswerAdaption>().buttonImage.color = answer.GetComponent<AnswerAdaption>().startColor;
+            }
             
             //currentQuestion = Random.Range(0, QnA.Count);
 
