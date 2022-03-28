@@ -20,6 +20,12 @@ public class QuizManager : MonoBehaviour
     public int totalQuestions;
     public int score;
 
+    [SerializeField]
+    private ScoreSO scoress;
+    [SerializeField]
+    private NotScoreSO notscoress;
+    [SerializeField]
+    private Questions questionss;
 
     private void Start()
     {
@@ -42,6 +48,8 @@ public class QuizManager : MonoBehaviour
 
     public void correct()
     {
+        questionss.Value2 += 1;
+        scoress.Value += 1;
         score += 1;
         QnA.RemoveAt(currentQuestion);
         generateQuestion();
@@ -49,6 +57,8 @@ public class QuizManager : MonoBehaviour
 
     public void wrong()
     {
+        questionss.Value2 += 1;
+        notscoress.Value1 += 1;
         QnA.RemoveAt(currentQuestion);
         generateQuestion();
     }
