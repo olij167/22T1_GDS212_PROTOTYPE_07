@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ee90ed5b2c22374ea08cb87101e5ccf, type: 3}
+  m_Name: sentence 18
+  m_EditorClassIdentifier: 
+  sentence: he was named after his father
+  wordsInSentence:
+  - {fileID: 11400000, guid: 1c68c862d3994794a99556a4be1660d7, type: 2}
+  - {fileID: 11400000, guid: 99722da195bdbde4a8d628eb4df5da17, type: 2}
+  - {fileID: 11400000, guid: d40b65dade2b02c43b503a187cae217d, type: 2}
+  - {fileID: 11400000, guid: 1be9068351fac894d9c77e58d5ab4904, type: 2}
+  - {fileID: 11400000, guid: fd01e8218d2720946b95bbed73761d97, type: 2}
+  - {fileID: 11400000, guid: 00cc888f194c8f94b88313a65662d3cf, type: 2}
+  hiddenWord: {fileID: 0}
+  hiddenWordNumInList: 0

@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 641ad9ec53e6e2445a7532f1e519dc4b, type: 3}
   m_Name: L
   m_EditorClassIdentifier: 
-  letter: 76
-  mouthSprite: {fileID: 6011656985791267662, guid: d7d6ac0cca270b045924f780c9f457a8, type: 3}
+  letter: L
+  mouthSprite: {fileID: 21300000, guid: b1a7d796072aa1a41bdf6898d0146f49, type: 3}

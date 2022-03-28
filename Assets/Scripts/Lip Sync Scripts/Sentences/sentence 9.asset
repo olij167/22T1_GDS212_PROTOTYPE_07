@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ee90ed5b2c22374ea08cb87101e5ccf, type: 3}
+  m_Name: sentence 9
+  m_EditorClassIdentifier: 
+  sentence: the password is bamboo
+  wordsInSentence:
+  - {fileID: 11400000, guid: 53ade1eee483e0f41aab17d3349d91f3, type: 2}
+  - {fileID: 11400000, guid: 073f1a3bc55fbc14b8ff46cc02643880, type: 2}
+  - {fileID: 11400000, guid: f3789e13c73fcc643bce3b2e9c37f89a, type: 2}
+  - {fileID: 11400000, guid: f9fa7cef51b17b14b94395d5a227a331, type: 2}
+  hiddenWord: {fileID: 0}
+  hiddenWordNumInList: 0

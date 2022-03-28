@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ee90ed5b2c22374ea08cb87101e5ccf, type: 3}
+  m_Name: sentence 11
+  m_EditorClassIdentifier: 
+  sentence: stash the profit in the laundry basket
+  wordsInSentence:
+  - {fileID: 11400000, guid: dd707ceb8e846f342a95efd71c461f44, type: 2}
+  - {fileID: 11400000, guid: 53ade1eee483e0f41aab17d3349d91f3, type: 2}
+  - {fileID: 11400000, guid: 0b7147df39c9150429f5fd09d23a982a, type: 2}
+  - {fileID: 11400000, guid: eda0b0297a0bdb34aa5702ff4f160c4c, type: 2}
+  - {fileID: 11400000, guid: 53ade1eee483e0f41aab17d3349d91f3, type: 2}
+  - {fileID: 11400000, guid: b6e14bfa97caaab47bc28bd0e3b0339e, type: 2}
+  - {fileID: 11400000, guid: e5a41e36e80ca7f4a8c3dfff5a1e2232, type: 2}
+  hiddenWord: {fileID: 0}
+  hiddenWordNumInList: 0
