@@ -10,7 +10,7 @@ public class LipSyncController : MonoBehaviour
 
     public LipSyncSentence sentence;
     
-    public Image lipsImage;
+    Image lipsImage;
 
     public float spriteDisplayTimer;
 
@@ -21,7 +21,7 @@ public class LipSyncController : MonoBehaviour
     public int count;
     void Start()
     {
-        
+        lipsImage = GetComponent<Image>();
 
 
         //word = wordsList[Random.Range(0, wordsList.Count)];
