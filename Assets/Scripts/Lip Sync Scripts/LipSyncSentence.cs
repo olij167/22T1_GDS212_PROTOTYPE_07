@@ -4,6 +4,8 @@ using UnityEngine;
 
 [CreateAssetMenu(menuName = "Sentence")]
 
+//Script written by Oli for Prototype 7
+
 public class LipSyncSentence : ScriptableObject
 {
     public string sentence;

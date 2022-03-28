@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
+//Script written by Oli for Prototype 7
+
 public class SentenceUI : MonoBehaviour
 {
     public LipSyncController lipSyncController;

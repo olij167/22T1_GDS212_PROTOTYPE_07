@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+//Script written by Pablo and editted by Oli for Prototype 7
+
 public class AnswerAdaption : MonoBehaviour
 {
 

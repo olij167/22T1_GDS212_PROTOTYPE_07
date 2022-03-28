@@ -5,6 +5,8 @@ using UnityEngine.UI;
 using TMPro;
 using UnityEngine.SceneManagement;
 
+//Script written by Pablo and editted by Oli for Prototype 7
+
 public class QuizManagerAdaption : MonoBehaviour
 {
     //public List<QnAAdaption> QnA;

@@ -1,5 +1,7 @@
 
-[System.Serializable] 
+[System.Serializable]
+
+//Script written by Pablo and editted by Oli for Prototype 7
 
 public class QnAAdaption 
 {
