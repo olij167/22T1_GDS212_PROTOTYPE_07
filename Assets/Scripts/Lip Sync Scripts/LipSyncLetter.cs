@@ -13,6 +13,6 @@ using UnityEngine;
 // 4. create for every letter of the alphabet
 public class LipSyncLetter : ScriptableObject
 {
-    public char letter;
+    public string letter;
     public Sprite mouthSprite;
 }

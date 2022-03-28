@@ -19,5 +19,5 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 2a3f0e4363f4f9640952ea2c2413ad51, type: 2}
   - {fileID: 11400000, guid: e771d7bd34d1420489b13e07dc45eb3b, type: 2}
   - {fileID: 11400000, guid: 25dbe55ba29123a41a3a061e2607a37e, type: 2}
-  letterDisplayTime: 0
+  letterDisplayTime: 0.15
   dontMakeHiddenWord: 0

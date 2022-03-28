@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ee90ed5b2c22374ea08cb87101e5ccf, type: 3}
+  m_Name: sentence 12
+  m_EditorClassIdentifier: 
+  sentence: I left our leverage at the compound
+  wordsInSentence:
+  - {fileID: 11400000, guid: 7c01c1f693b208b48aad67bfcb9a2e13, type: 2}
+  - {fileID: 11400000, guid: 5887a0e1ee084e64ba4347ce0da34fe3, type: 2}
+  - {fileID: 11400000, guid: 99cde60566b021d4caa0bfaec81fb892, type: 2}
+  - {fileID: 11400000, guid: 7182480fba0164a4cad01be7a2f0c0c1, type: 2}
+  - {fileID: 11400000, guid: 1f965fd9a7bd7b744951a42bc1d5e8a4, type: 2}
+  - {fileID: 11400000, guid: 53ade1eee483e0f41aab17d3349d91f3, type: 2}
+  - {fileID: 11400000, guid: cad1966fac3f6304199c0c2a0626ded4, type: 2}
+  hiddenWord: {fileID: 0}
+  hiddenWordNumInList: 0

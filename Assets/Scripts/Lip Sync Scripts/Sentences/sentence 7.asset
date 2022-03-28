@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ee90ed5b2c22374ea08cb87101e5ccf, type: 3}
+  m_Name: sentence 7
+  m_EditorClassIdentifier: 
+  sentence: 'go to the kitchen and check on our progress  '
+  wordsInSentence:
+  - {fileID: 11400000, guid: bab49b49022546c49a9cf75c2a5b7828, type: 2}
+  - {fileID: 11400000, guid: eda77a9880332d247a89488fb6dafbe4, type: 2}
+  - {fileID: 11400000, guid: 53ade1eee483e0f41aab17d3349d91f3, type: 2}
+  - {fileID: 11400000, guid: eb9da20df8d66a74bb69e758335d673a, type: 2}
+  - {fileID: 11400000, guid: 2e1686e92f29b524aba53b62ca7509dc, type: 2}
+  - {fileID: 11400000, guid: 3bf279603a44d434fbc1dad950e1ec45, type: 2}
+  - {fileID: 11400000, guid: e12cdc99179a1584c9e3773023c419f6, type: 2}
+  - {fileID: 11400000, guid: 99cde60566b021d4caa0bfaec81fb892, type: 2}
+  - {fileID: 11400000, guid: 196527aa1946dcd488d1b3d8de6584b2, type: 2}
+  hiddenWord: {fileID: 0}
+  hiddenWordNumInList: 0
