@@ -60,12 +60,18 @@ public class QuizManagerAdaption : MonoBehaviour
     {
         score += 1;
         lipSyncController.sentenceList.Remove(lipSyncController.sentence);
-        generateQuestion();
+        StartCoroutine(WaitForNext());
     }
 
     public void wrong()
     {
         lipSyncController.sentenceList.Remove(lipSyncController.sentence);
+        StartCoroutine(WaitForNext());
+    }
+
+    IEnumerator WaitForNext()
+    {
+        yield return new WaitForSeconds(1);
         generateQuestion();
     }
 
@@ -77,7 +83,9 @@ public class QuizManagerAdaption : MonoBehaviour
 
         options[randButtonIndex].transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = lipSyncController.word.word;
 
-        
+        options[randButtonIndex].GetComponent<Image>().color = options[randButtonIndex].GetComponent<AnswerAdaption>().startColor;
+
+
         foreach (GameObject button in options)
         {
             if (button != options[randButtonIndex])

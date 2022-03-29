@@ -4,6 +4,8 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
+//Created by Pablo
+
 public class QuizManager : MonoBehaviour
 {
     public List<QuestionsAndAnswers> QnA;

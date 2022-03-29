@@ -26,13 +26,13 @@ public class AnswerAdaption : MonoBehaviour
     {
         if (isCorrect)
         {
-            buttonImage.color = Color.green;
+            GetComponent<Image>().color = Color.green;
             Debug.Log("CorrectAnswer");
             quizManager.correct();
         }
         else
         {
-            buttonImage.color = Color.red;
+            GetComponent<Image>().color = Color.red;
             Debug.Log("Wrong Answer");
             quizManager.wrong();
         }
