@@ -1,8 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
 using UnityEngine.SceneManagement;
+
+//Script written by Pablo and editted by Oli for Prototype 7
 
 public class QuizManagerAdaption : MonoBehaviour
 {
@@ -65,7 +68,7 @@ public class QuizManagerAdaption : MonoBehaviour
         questionsoo.Value2 += 1;
         score += 1;
         lipSyncController.sentenceList.Remove(lipSyncController.sentence);
-        generateQuestion();
+        StartCoroutine(WaitForNext());
     }
 
     public void wrong()
@@ -73,6 +76,12 @@ public class QuizManagerAdaption : MonoBehaviour
         questionsoo.Value2 += 1;
         notscoreso.Value1 += 1;
         lipSyncController.sentenceList.Remove(lipSyncController.sentence);
+        StartCoroutine(WaitForNext());
+    }
+
+    IEnumerator WaitForNext()
+    {
+        yield return new WaitForSeconds(1);
         generateQuestion();
     }
 
@@ -84,7 +93,9 @@ public class QuizManagerAdaption : MonoBehaviour
 
         options[randButtonIndex].transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = lipSyncController.word.word;
 
-        
+        options[randButtonIndex].GetComponent<Image>().color = options[randButtonIndex].GetComponent<AnswerAdaption>().startColor;
+
+
         foreach (GameObject button in options)
         {
             if (button != options[randButtonIndex])
@@ -139,6 +150,11 @@ public class QuizManagerAdaption : MonoBehaviour
         if(lipSyncController.sentenceList.Count > 0)
         {
             lipSyncController.SetNewSentence();
+
+            foreach (GameObject answer in options)
+            {
+                answer.GetComponent<AnswerAdaption>().buttonImage.color = answer.GetComponent<AnswerAdaption>().startColor;
+            }
             
             //currentQuestion = Random.Range(0, QnA.Count);
 

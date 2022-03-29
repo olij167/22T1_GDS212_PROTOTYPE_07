@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f97b3e193638804286922ad5672c369, type: 3}
   m_Name: o clock
   m_EditorClassIdentifier: 
-  word: o'clock
+  word: o clock
   lettersInWordList:
   - {fileID: 11400000, guid: ef032348c789af44a9fdf6e3b1008381, type: 2}
   - {fileID: 11400000, guid: e28f4a99d674ace4b8f85f8cf0974726, type: 2}
