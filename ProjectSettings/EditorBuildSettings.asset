@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Main Menu.unity
     guid: e249a58730c2d3d4db929e335018786a
+  - enabled: 1
+    path: Assets/Scenes/Oli Workspace.unity
+    guid: 0fd3f76e2798af14e898174cbae9554c
   m_configObjects: {}

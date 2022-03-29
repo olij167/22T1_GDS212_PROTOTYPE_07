@@ -669,10 +669,6 @@ PrefabInstance:
       propertyPath: quizManager
       value: 
       objectReference: {fileID: 1149659948}
-    - target: {fileID: 6606810733566034025, guid: 05b98d07241f8e248a623a826a4bad34, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6606810733531364348, guid: 05b98d07241f8e248a623a826a4bad34, type: 3}
       propertyPath: startColor.b
       value: 0.2627451
@@ -684,6 +680,10 @@ PrefabInstance:
     - target: {fileID: 6606810733531364348, guid: 05b98d07241f8e248a623a826a4bad34, type: 3}
       propertyPath: startColor.r
       value: 0.5764706
+      objectReference: {fileID: 0}
+    - target: {fileID: 6606810733566034025, guid: 05b98d07241f8e248a623a826a4bad34, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6606810733937933718, guid: 05b98d07241f8e248a623a826a4bad34, type: 3}
       propertyPath: m_Name
@@ -793,10 +793,6 @@ PrefabInstance:
       propertyPath: quizManager
       value: 
       objectReference: {fileID: 1149659948}
-    - target: {fileID: 6606810734629754690, guid: 05b98d07241f8e248a623a826a4bad34, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6606810734418329788, guid: 05b98d07241f8e248a623a826a4bad34, type: 3}
       propertyPath: startColor.b
       value: 0.2627451
@@ -808,6 +804,10 @@ PrefabInstance:
     - target: {fileID: 6606810734418329788, guid: 05b98d07241f8e248a623a826a4bad34, type: 3}
       propertyPath: startColor.r
       value: 0.5764706
+      objectReference: {fileID: 0}
+    - target: {fileID: 6606810734629754690, guid: 05b98d07241f8e248a623a826a4bad34, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6606810735155264316, guid: 05b98d07241f8e248a623a826a4bad34, type: 3}
       propertyPath: quizManager
@@ -893,7 +893,7 @@ PrefabInstance:
     - target: {fileID: 8521643377129432225, guid: ab9b063be9626c842bcabedc56e3ab65, type: 3}
       propertyPath: scoress
       value: 
-      objectReference: {fileID: 11400000, guid: 141f164fa7f20a34aa9070309d4eb2de, type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 8521643377129432225, guid: ab9b063be9626c842bcabedc56e3ab65, type: 3}
       propertyPath: quizPanel
       value: 
@@ -905,11 +905,11 @@ PrefabInstance:
     - target: {fileID: 8521643377129432225, guid: ab9b063be9626c842bcabedc56e3ab65, type: 3}
       propertyPath: notscoress
       value: 
-      objectReference: {fileID: 11400000, guid: afb408ea0171311489bfb0332a74e982, type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 8521643377129432225, guid: ab9b063be9626c842bcabedc56e3ab65, type: 3}
       propertyPath: questionss
       value: 
-      objectReference: {fileID: 11400000, guid: ad6b8496eaf965a42afcda96d79e1e5c, type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 8521643377129432225, guid: ab9b063be9626c842bcabedc56e3ab65, type: 3}
       propertyPath: QuestionTxt
       value: 

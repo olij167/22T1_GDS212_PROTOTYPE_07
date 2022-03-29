@@ -19,6 +19,12 @@ public class QuizManagerAdaption : MonoBehaviour
 
     public int totalQuestions;
     public int score;
+    [SerializeField]
+    private NotScoreSO notscoreso;
+    [SerializeField]
+    private ScoreSO scoresoo;
+    [SerializeField]
+    private Questions questionsoo;
 
     public LipSyncController lipSyncController;
 
@@ -55,6 +61,8 @@ public class QuizManagerAdaption : MonoBehaviour
 
     public void correct()
     {
+        scoresoo.Value += 1;
+        questionsoo.Value2 += 1;
         score += 1;
         lipSyncController.sentenceList.Remove(lipSyncController.sentence);
         generateQuestion();
@@ -62,6 +70,8 @@ public class QuizManagerAdaption : MonoBehaviour
 
     public void wrong()
     {
+        questionsoo.Value2 += 1;
+        notscoreso.Value1 += 1;
         lipSyncController.sentenceList.Remove(lipSyncController.sentence);
         generateQuestion();
     }
